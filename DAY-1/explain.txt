@@ -1,0 +1,21 @@
+Web Page 
+    HTML --> HTML 5
+    CSS --> CSS 3
+    Javascript ---> ES 6
+
+    HTML (skeleton) ---> CSS (Design) ---> Javascript (Interaction)
+
+    HTML --> HyperText Markup Language
+        <open>cont</close>
+        <tag cont />
+        elements --> 
+            text
+            images
+            buttons
+            layouts
+
+        block element
+            print on new line 
+            
+        inline element
+            print on same line
