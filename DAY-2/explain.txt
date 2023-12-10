@@ -1,0 +1,2 @@
+# need to a have a doctype on each page
+# in browser we have a css box 

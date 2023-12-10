@@ -1,0 +1,18 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  overflow: auto;
+  padding: 10px;
+  /* left top right bottom */
+  padding: 10px 20px;
+  /* top-bottom * left-right */
+
+  padding: 10px 20px 30px;
+  /* top  left-right bottom */
+
+  padding: 10px 20px 30px 40px;
+  /* top  right bottom left*/
+  box-sizing: border-box;
+}
