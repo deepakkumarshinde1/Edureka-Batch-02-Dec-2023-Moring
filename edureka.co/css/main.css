@@ -1,18 +1,179 @@
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-
-  overflow: auto;
-  padding: 10px;
-  /* left top right bottom */
-  padding: 10px 20px;
-  /* top-bottom * left-right */
-
-  padding: 10px 20px 30px;
-  /* top  left-right bottom */
-
-  padding: 10px 20px 30px 40px;
-  /* top  right bottom left*/
+* {
   box-sizing: border-box;
+  margin: 0;
+}
+/* 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+.main-offer {
+  background-color: #fea101; /* RR GG BB  */
+  padding: 10px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nav-bar {
+  /* background-color: #0d5499; */
+  /* background: linear-gradient(90deg, red 0% 30%, green 30% 70%, blue 70% 100%); */
+  background: linear-gradient(90deg, #0c5397, #238ae0, #238ae0);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  align-items: center;
+}
+
+/* child selector */
+.left-nav-bar > img {
+  width: 120px;
+}
+
+/* descendant selector*/
+.right-nav-bar a {
+  color: white;
+}
+
+/* layout 
+ inline block
+ grid
+ flexbox
+*/
+.left-nav-bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.right-nav-bar {
+  display: flex;
+}
+
+.right-nav-bar > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-left: 0;
+}
+
+.right-nav-bar a {
+  /* text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: red;
+  text-decoration-style: dotted; */
+  text-decoration: none;
+}
+
+.right-nav-bar > ul > li {
+  margin: 0 0.5rem; /* top-bottom left-right*/
+}
+
+/* rem  ==> root(html) emphasis  => default size 16px
+
+  1rem == 16px
+  .5rem == 8px
+  2rem == 32px
+  1.5rem == 24px
+
+
+  rem  ==> root(html) emphasis  => default size 8px
+  1rem == 8px
+  .5rem == 4px
+  2rem == 16px
+  1.5rem == 12px
+*/
+
+.login {
+  background-color: transparent;
+  color: white;
+  border: none;
+  /* border-bottom-width: 2px;
+  border-bottom-color: red;
+  border-bottom-style: double;
+
+  border-left-width: 2px;
+  border-left-color: orangered;
+  border-left-style: dashed; */
+}
+
+.sign-up {
+  background-color: #4a9de3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  /* 
+  border-width: 2px;
+  border-color: orangered;
+  border-style: solid; */
+
+  /* border-top-left-radius: 20px; */
+}
+
+.search-box {
+  background-color: red;
+  width: 80%;
+  display: flex;
+}
+.search-box > input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+}
+
+.search-box > input:hover {
+  cursor: pointer;
+  /* background-color: lightblue; */
+}
+.search-box > input:focus {
+  border: none;
+  outline: none;
+}
+
+.search-box > button {
+  width: 20%;
+  background-color: #f6831f;
+  color: white;
+  border: none;
+}
+
+/* pseudo elements & pseudo classes */
+
+/*
+pseudo classes
+  hover --> add logic
+  focus --> add logic
+
+  selector:pseudo-classes
+ */
+
+.table {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+/* group */
+.table,
+.table td,
+.table th {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.table > thead > tr {
+  background-color: #f6831f;
+  color: white;
+}
+
+.table > tbody > tr:nth-child(odd) {
+  background-color: #def2f8;
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: #fafafa;
 }
