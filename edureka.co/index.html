@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <section class="main-offer">
         <span>Mid Month Madness - Upto 30% Off</span> |
         <span>OFFER ENDING IN : </span>
         <span> 00 D 16 H 36 M 37 S </span>
         <a href="">GRAB NOW</a>
+
+        <button class="close-offer">X</button>
       </section>
       <nav class="nav-bar">
         <section class="left-nav-bar">
@@ -47,109 +56,323 @@
         </section>
       </nav>
     </header>
-    <section>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Sr No</th>
-            <th>Name</th>
-            <th>Address</th>
-            <th>City</th>
-            <th>Contact</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Deepakkumar</td>
-            <td>Swarget</td>
-            <td>Pune</td>
-            <td>8976567876</td>
-            <td><button class="sign-up">Delete</button></td>
-          </tr>
-        </tbody>
-      </table>
+    <section class="banner">
+      <img src="./images/banner-1.jpg" alt="" />
+      <div class="banner-navigation">
+        <button>&lt;</button>
+        <button>&gt;</button>
+      </div>
     </section>
+
+    <section class="trending-courses">
+      <section class="top-courses">
+        <section class="top-courses-item">
+          <p>Become a <span>Devops Engineer</span></p>
+          <a href="#">know more &gt;</a>
+        </section>
+
+        <section class="top-courses-item">
+          <p>Become a <span>Devops Engineer</span></p>
+          <a href="#">know more &gt;</a>
+        </section>
+
+        <section class="top-courses-item">
+          <p>Become a <span>Devops Engineer</span></p>
+          <a href="#">know more &gt;</a>
+        </section>
+      </section>
+      <section class="more-courses">
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+        <section class="more-course-item">
+          <section class="front">
+            <section class="top">
+              <img src="./images/best-seller-min.svg" alt="" />
+              <div class="title">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <p>AWS Certification Training Co</p>
+              </div>
+            </section>
+            <section class="bottom">
+              <p>AWS Certification Training Co</p>
+              <i>Reviews</i>
+              <p>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <i class="fa fa-star text-waring" aria-hidden="true"></i>
+                <strong>4.4</strong>(63400)
+              </p>
+            </section>
+          </section>
+          <section class="back"></section>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        voluptates, sapiente sequi dolores quidem, vero doloremque aliquid sit
+        ab dolore quis accusantium consequatur nesciunt sed quaerat. Itaque
+        temporibus incidunt eius! Itaque, rem omnis quis culpa ipsam porro
+        reiciendis quas illum, qui neque inventore excepturi accusamus tempore
+        nisi ratione minus officiis dolore id similique blanditiis sunt facilis
+        maiores, delectus obcaecati. Earum! Consequuntur animi aliquid, neque ea
+        ullam nemo quia. Vero ipsam possimus, velit quam sit nostrum accusantium
+        eius voluptatibus numquam excepturi! Reprehenderit voluptates, quo
+        laborum maiores molestiae quaerat accusantium voluptas atque. Quasi in
+        placeat numquam. Nisi, ipsum laboriosam! Officia repudiandae animi omnis
+        quod ratione iste eligendi adipisci recusandae sint dignissimos dolor
+        et, qui reiciendis laudantium deserunt voluptatem! Doloremque esse
+        possimus omnis? Saepe corrupti ut, eligendi fugit molestias odit maiores
+        officiis eaque alias hic doloribus, nihil voluptatem quod quas dolorum
+        labore aut amet, debitis suscipit in assumenda. Consequuntur quam ipsam
+        eveniet dolor. Architecto totam cupiditate culpa ex hic. Quia quaerat
+        quibusdam aut non atque voluptate neque laborum iure incidunt
+        consequuntur rerum saepe, error libero, eius obcaecati tenetur dolorum
+        debitis. Quia, voluptatum id? Architecto culpa ut quae placeat harum est
+        distinctio minus sunt, eveniet eum inventore, neque debitis dolores
+        facere? Alias hic consequuntur deleniti molestiae voluptate.
+        Reprehenderit temporibus quasi corrupti quidem rem rerum. Culpa ipsam
+        vel omnis quod perferendis possimus doloribus, exercitationem voluptas
+        sint facere quidem repellat temporibus dolores laudantium. Sapiente iste
+        ad hic, voluptatibus eum cum a dolores quas, fuga, consectetur ducimus?
+        Culpa, doloremque explicabo architecto possimus eligendi consequatur
+        dignissimos minus omnis excepturi similique vitae! Repellat voluptatem
+        quo necessitatibus impedit deserunt mollitia ea voluptatum, perferendis
+        consequuntur consequatur rerum cumque quisquam molestiae ipsam! Iste,
+        pariatur iure explicabo ad quidem rerum harum quas delectus consequatur
+        reiciendis obcaecati, nisi quisquam temporibus error possimus aut
+        placeat corporis eligendi incidunt excepturi perspiciatis voluptates.
+        Nostrum similique odio dicta.
+      </p>
+    </section>
+
+    <iframe
+      src="https://cdnjs.com/libraries/font-awesome/4.7.0"
+      frameborder="0"
+    ></iframe>
   </body>
 </html>

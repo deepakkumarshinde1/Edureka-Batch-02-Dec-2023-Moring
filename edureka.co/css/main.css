@@ -2,7 +2,23 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+@font-face {
+  font-family: Poppins; /* give name to font*/
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
 /* 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+
+/*  */
+body {
+  height: 1000px;
+}
+body,
+button,
+input {
+  font-family: Poppins, "Comic Sans MS";
+}
+
 .main-offer {
   background-color: #fea101; /* RR GG BB  */
   padding: 10px 0;
@@ -176,4 +192,197 @@ pseudo classes
 
 .table > tbody > tr:nth-child(even) {
   background-color: #fafafa;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.banner > img {
+  transform: translateX(-20rem);
+}
+.banner-navigation {
+  /* background-color: red; */
+  position: absolute;
+  top: 40%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  /* top: ;
+  bottom: ;
+  left: ;
+  right: ; */
+}
+
+.banner-navigation > button {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.close-offer {
+  position: absolute;
+  right: 0;
+  margin-right: 0.5rem;
+
+  background-color: transparent;
+  border: none;
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.top-courses {
+  display: flex;
+  justify-content: center;
+}
+
+.top-courses-item {
+  width: 27%;
+  /* border-width: 1px;
+  border-color: gray;
+  border-style: solid; */
+  margin: 0px 1.3rem;
+
+  padding: 1rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-transform: uppercase;
+
+  border-radius: 4px;
+
+  box-shadow: 0px 0px 5px 0 #9c9c9c;
+  /* x y blur scale */
+
+  cursor: pointer;
+  position: relative;
+  z-index: 4;
+  top: -2.5rem;
+  background-color: white;
+
+  transition-property: transform, box-shadow;
+  transition-duration: 1s, 1s;
+}
+
+.top-courses-item:hover {
+  box-shadow: 0px 0px 5px 0 #c90505;
+  transform: translateY(-20px);
+}
+
+.top-courses-item > p > span {
+  display: block;
+  font-weight: bold;
+}
+
+.top-courses-item > a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0c5397;
+}
+
+.more-courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.more-course-item {
+  width: 20%;
+  height: 270px;
+  box-shadow: 0 0 5px 0 gray;
+  margin: 1rem;
+  transform: rotateZ(10deg);
+
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.more-course-item:hover {
+  transform: rotateZ(0deg);
+}
+.more-course-item > .front > .top {
+  height: 120px;
+  background: linear-gradient(90deg, #bb67d9, #ec94b5);
+  position: relative;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.more-course-item > .front > .top > img {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  top: 0;
+}
+
+.more-course-item > .front > .bottom {
+  padding: 1rem 1.5rem;
+}
+.more-course-item > .front > .bottom > p:nth-child(1) {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.more-course-item > .front > .bottom > i {
+  font-size: 0.8rem;
+}
+
+.more-course-item > .front > .bottom > p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.more-course-item > .front .title {
+  display: flex;
+  align-items: center;
+}
+
+.more-course-item > .front .title > i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.text-waring {
+  color: #ffc700;
+}
+
+.section {
+  column-count: 4;
+  column-gap: 50px;
+  text-align: justify;
+  column-rule-width: 2px;
+  column-rule-color: red;
+  column-rule-style: dashed;
 }
