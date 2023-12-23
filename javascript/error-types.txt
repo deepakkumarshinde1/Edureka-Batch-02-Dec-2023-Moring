@@ -1,0 +1,5 @@
+ReferenceError --> memory is not allocated.
+TypeError --> const variable issue
+SyntaxError --> wrong syntax
+
+ Uncaught TypeError: Cannot read properties of null
