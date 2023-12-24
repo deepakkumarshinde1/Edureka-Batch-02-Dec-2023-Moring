@@ -1,0 +1,25 @@
+classes
+
+container (reset all sized and browser default)
+row & column (layouts)
+color system 
+    success
+    danger
+    waring
+    info 
+    secondary
+    light
+    white
+    dark
+
+    text-colorName
+    btn-colorName
+    bg-colorName
+    border-colorName
+    table-colorName
+    
+padding
+margin
+
+flex
+text-props
