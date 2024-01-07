@@ -1,0 +1,43 @@
+input / textarea / select ===> val() / val('Text')
+
+other element to get a text ==> html()
+other element to set a text ==> html('Text')
+
+
+add a event ==> on(event, fun);
+
+work with css ===> css({prop:value,prop:value});
+
+add css class ==> addClass('className');
+
+remove css class ==> removeClass('className');
+
+change a property(attribute) value ==> prop('name',value);
+
+add animation ==> animate({prop:value}, 1000) where 1000 ms i,e 1 sec
+
+get a data-set attribute ==> data('bs-toggle') 
+
+data-bs-toggle data-bs-target 
+
+Note- In jQuery --> when want to handel dynamic element event following is code we use
+
+$(document).on('event','selector',fun);
+
+array.push ==> add a value from end of array
+array.unshift ==> add a value from start of array
+array.map ==> create new array from existing array
+array.join ==> to convert a array to string
+
+
+
+// add date to todo
+// sortable logic
+
+
+// MERN web development internship program
+// MEAN web development internship program
+
+// JAVA FSD
+
+// Python FSD (Django / flask)
